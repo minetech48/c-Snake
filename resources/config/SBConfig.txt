@@ -1,0 +1,2 @@
+configSetting1:true
+configSetting2:true

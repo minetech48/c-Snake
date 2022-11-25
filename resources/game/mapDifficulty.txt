@@ -1,0 +1,48 @@
+30, 20
+
+3
+speed, 17
+apples, 6
+walls, 0
+portals, 0
+
+4
+speed, 15
+
+5
+speed, 13
+apples, 5
+
+7
+speed, 11
+apples, 4
+
+15
+speed, 10
+apples, 3
+
+20
+speed, 8
+apples, 3
+walls, 1
+
+25
+speed, 7
+apples, 2
+walls, 2
+
+30
+speed, 6
+
+35
+speed, 5
+walls, 3
+
+50
+speed, 4
+walls, 5
+
+60
+speed, 3
+walls, 6
+apples, 1

@@ -1,0 +1,7 @@
+programName: mtEngine
+programVersion: "Version 3"
+programNameVersion: \$programName\ \n\$programVersion\ 
+
+closeMenu: Exit
+
+reset: Reset

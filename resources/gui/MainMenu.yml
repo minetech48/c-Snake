@@ -1,0 +1,13 @@
+elements:
+  Scoreboard:
+    size: [200, 50]
+    position: [-5, 5]
+    
+    text: gameScoreboard.scoreboard
+
+  ResetButton:
+    size: [200, 30]
+    position: [3, -3]
+    
+    text: reset
+    onClick: GUIReset
