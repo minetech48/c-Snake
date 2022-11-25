@@ -28,8 +28,6 @@ bool Data::gameRunning = false, Data::gameInitialized = false;
 
 //game state functions
 void Data::initialize() {
-	grid = std::vector<std::vector<Tile>>(gridWidth, std::vector<Tile>(gridHeight, Tile()));
-	
 	//clearing difficultyMap
 	while (!difficultyMap.empty()) difficultyMap.pop();
 	
@@ -38,6 +36,8 @@ void Data::initialize() {
 		return;
 	}
 	currentSettings = difficultyMap.front().second;
+	
+	grid = std::vector<std::vector<Tile>>(gridWidth, std::vector<Tile>(gridHeight, Tile()));
 	
 	apples = 0;
 	walls = 0;
